@@ -11,7 +11,6 @@ class Pancakes:
 	def busqAmplitud(self, nodo):
 		cola = [(nodo, [0])]		
 		meta = self.orden[0:len(nodo)]
-		nodos = 0
 		while cola:
 			pancakes, camino = cola.pop(0)
 			if pancakes == meta:
