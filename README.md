@@ -6,9 +6,9 @@ Este programa resuelve el problema de pancake sorting mediante el uso de BFS (Br
 
 ## Funciones
 
- ### **'Voltear(self, posicion)'**
+ ### **'Voltear(self, posicion, pancakes)'**
  
-Esta funcion recibe como parametro la posición donde se van a voltear los pancakes y devuelve los pancakes volteados desde esa posición.
+Esta funcion recibe como parametro la posición donde se van a voltear los pancakes y los pancakes que van a ser volteados y devuelve los pancakes volteados desde esa posición.
 
  ### **'busqAmplitud(self, nodo)'**
  Esta funcion recibe como parametro el nodo a partir del cual se realizará la busqueda en amplitud y va a retornar la serie de movimientos  
